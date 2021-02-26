@@ -1,0 +1,278 @@
+<html>
+  <head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"><title>Timeline | Basic demo</title>
+<style type="text/css">
+      body, html {
+        font-family: sans-serif;
+      }
+</style>
+<script type="text/javascript" src="../assets/scripts/vis.min.js"></script>
+<link href="../assets/styles/vis.min.css" rel="stylesheet" type="text/css" />
+
+
+<body>
+  
+<div id="visualization"></div>
+  
+  
+<script>
+ 
+  // DOM element where the Timeline will be attached
+  var container = document.getElementById("visualization");
+ 
+  // Create a DataSet (allows two way data-binding)
+  //console.log(itemss);  
+  //var sourcedata = JSON.parse(itemss);
+  //consolt.log(sourcedata);
+ let itemms = 'operations.json';
+  var sourceItems = [];
+  var sourceGroups = [];
+    
+  var items = new vis.DataSet();
+  var groups = new vis.DataSet();
+  
+  for (var i = 0; i < itemss.results.length; i++)
+  { 
+    if (itemss.results[i].device.id && itemss.results[i].device.name){
+    
+    
+    if (itemss.results[i].device.id == "kraskovarka"){
+      function uuidv4() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+          return v.toString(16);
+        });
+      }
+      
+      itemss.results[i].device.id = uuidv4();
+      var kraskovarka = {id: itemss.results[i].device.id + '_'+ 'kraskovarka', content: 'Красковарка'};
+      var preparation = {id: itemss.results[i].device.id + '_'+ 'preparation', content: 'Вспомогательные операции'};
+      var working = {id: itemss.results[i].device.id + '_'+ 'working', content: 'Работа'};
+      var cleaning = {id: itemss.results[i].device.id + '_'+ 'cleaning', content: 'Чистка'};
+    }else{
+      var kraskovarka = {id: itemss.results[i].device.id + '_'+ 'kraskovarka', content: 'Красковарка'};
+      var preparation = {id: itemss.results[i].device.id + '_'+ 'preparation', content: 'Вспомогательные операции'};
+      var working = {id: itemss.results[i].device.id + '_'+ 'working', content: 'Работа'};
+      var cleaning = {id: itemss.results[i].device.id + '_'+ 'cleaning', content: 'Чистка'};
+    }
+    
+       
+      var group = {
+      id: itemss.results[i].device.id, 
+      content: itemss.results[i].device.name,
+      nestedGroups: [itemss.results[i].device.id + '_'+ 'preparation',itemss.results[i].device.id + '_'+ 'working', itemss.results[i].device.id + '_'+ 'cleaning', itemss.results[i].device.id + '_'+ 'kraskovarka']
+    }
+    if(group == null){console.log("nested Group Null");}
+  
+     sourceGroups.push(preparation,working,cleaning,kraskovarka);  
+     sourceGroups.push(group);
+     if(itemss.results[i].divided_shedule.cleaning.length > 0){
+     //Cleaning
+     for (var j = 0; j < itemss.results[i].divided_shedule.cleaning.length; j++)
+      {
+        if (itemss.results[i].divided_shedule.cleaning[j]) {
+          var startOper = itemss.results[i].divided_shedule.cleaning[j].start;
+          startOper = vis.moment(startOper).utc();
+		      // startOper.replace(" ", "T");
+          // startOper =  Date.parse(startOper);
+          // startOper = new Date(startOper);
+          var endOper = itemss.results[i].divided_shedule.cleaning[j].end;
+          endOper = vis.moment(endOper).utc();
+		      // endOper.replace(" ", "T");
+          // endOper =  Date.parse(endOper);
+          // endOper = new Date(endOper);
+          if (itemss.results[i].divided_shedule.cleaning[j].order_item){
+            if (itemss.results[i].divided_shedule.cleaning[j].order_item.design){
+              
+          var itemData = {
+            id: i + '_' + j + 'cleaning', 
+            group: itemss.results[i].device.id + '_'+ 'cleaning', 
+            content:itemss.results[i].divided_shedule.cleaning[j].operation + " "+ itemss.results[i].divided_shedule.cleaning[j].order_item.vendor_code.name+" "+ itemss.results[i].divided_shedule.cleaning[j].order_item.design.name + " "+ itemss.results[i].divided_shedule.cleaning[j].order_item.length,  
+            type: 'range',
+            style: "background-color: #"+itemss.results[i].divided_shedule.cleaning[j].order_item.design.classname+";color: red; height: 50px", 
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            align: 'center'
+          }
+        }
+        }else{
+          var itemData = {
+            id: i + '_' + j + 'cleaning', 
+            group: itemss.results[i].device.id + '_'+ 'cleaning', 
+            content:itemss.results[i].divided_shedule.cleaning[j].operation,  
+            type: 'range',
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            style: "height: 50px"
+          }
+
+        }
+          sourceItems.push(itemData);
+        }
+      }
+    
+    }
+    if(itemss.results[i].divided_shedule.working.length > 0){
+      //Working
+    for (var w = 0; w < itemss.results[i].divided_shedule.working.length; w++)
+      {
+        if (itemss.results[i].divided_shedule.working[w]) {
+          var startOper = itemss.results[i].divided_shedule.working[w].start;
+          startOper = vis.moment(startOper).utc();
+		      // startOper.replace(" ", "T");
+          // startOper =  Date.parse(startOper);
+          // startOper = new Date(startOper);
+          var endOper = itemss.results[i].divided_shedule.working[w].end;
+          endOper = vis.moment(endOper).utc();
+		      // endOper.replace(" ", "T");
+          // endOper =  Date.parse(endOper);
+          // endOper = new Date(endOper);
+          if (itemss.results[i].divided_shedule.working[w].order_item){
+            if (itemss.results[i].divided_shedule.working[w].order_item.design){
+          var itemData = {
+            id: i + '_' + w + 'working', 
+            group: itemss.results[i].device.id + '_'+ 'working', 
+            content:itemss.results[i].divided_shedule.working[w].operation+ " "+ itemss.results[i].divided_shedule.working[w].order_item.vendor_code.name+" "+ itemss.results[i].divided_shedule.working[w].order_item.design.name + " "+ itemss.results[i].divided_shedule.working[w].order_item.length,  
+            type: 'range',
+            style: "background-color: #"+itemss.results[i].divided_shedule.working[w].order_item.design.classname+";color: red;height: 50px", 
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            align: 'center'
+          }
+        }
+        }else{
+          var itemData = {
+            id: i + '_' + w + 'working', 
+            group: itemss.results[i].device.id + '_'+ 'working', 
+            content:itemss.results[i].divided_shedule.working[w].operation,  
+            type: 'range',
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            style: "height: 50px"
+          }
+        }
+          sourceItems.push(itemData);
+        }
+      }
+    }
+    if(itemss.results[i].divided_shedule.preparation.length > 0){
+    //Preparation
+    for (var e = 0; e < itemss.results[i].divided_shedule.preparation.length; e++)
+      {
+        if (itemss.results[i].divided_shedule.preparation[e]) {
+          var startOper = itemss.results[i].divided_shedule.preparation[e].start;
+          startOper = vis.moment(startOper).utc();
+		      // startOper.replace(" ", "T");
+          // startOper =  Date.parse(startOper);
+          // startOper = new Date(startOper);
+          var endOper = itemss.results[i].divided_shedule.preparation[e].end;
+          endOper = vis.moment(endOper).utc();
+		      // endOper.replace(" ", "T");
+          // endOper =  Date.parse(endOper);
+          // endOper = new Date(endOper);
+          if (itemss.results[i].divided_shedule.preparation[e].order_item){
+            if (itemss.results[i].divided_shedule.preparation[e].order_item.design){
+            var itemData = {
+              id: i + '_' + e  + 'preparation', 
+              group: itemss.results[i].device.id + '_'+ 'preparation', 
+              content:itemss.results[i].divided_shedule.preparation[e].operation + " "+ itemss.results[i].divided_shedule.preparation[e].order_item.vendor_code.name+" "+ itemss.results[i].divided_shedule.preparation[e].order_item.design.name + " "+ itemss.results[i].divided_shedule.preparation[e].order_item.length,  
+              type: 'range',
+              style: "background-color: #"+itemss.results[i].divided_shedule.preparation[e].order_item.design.classname+";color: red; height: 50px",  
+              start: startOper._d.toJSON(),
+              end: endOper._d.toJSON(),
+              align: 'center'
+            }
+          }
+        } else {
+          var itemData = {
+            id: i + '_' + e  + 'preparation', 
+            group: itemss.results[i].device.id + '_'+ 'preparation', 
+            content:itemss.results[i].divided_shedule.preparation[e].operation,  
+            type: 'range',
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            style: "height: 50px"
+          }
+        }
+          sourceItems.push(itemData);
+        }
+      }
+    }
+
+
+    
+    if(itemss.results[i].divided_shedule.kraskovarka.length > 0){
+    //Kraskovarka
+    for (var k = 0; k < itemss.results[i].divided_shedule.kraskovarka.length; k++)
+      {
+        if (itemss.results[i].divided_shedule.kraskovarka[k]) {
+          var startOper = itemss.results[i].divided_shedule.kraskovarka[k].start;
+          startOper = vis.moment(startOper).utc();
+		      // startOper.replace(" ", "T");
+          // startOper =  Date.parse(startOper);
+          // startOper = new Date(startOper);
+          var endOper = itemss.results[i].divided_shedule.kraskovarka[k].end;
+          endOper = vis.moment(endOper).utc();
+		      // endOper.replace(" ", "T");
+          // endOper =  Date.parse(endOper);
+          // endOper = new Date(endOper);
+          if (itemss.results[i].divided_shedule.kraskovarka[k].order_item){
+            if (itemss.results[i].divided_shedule.kraskovarka[k].order_item.design){
+            var itemData = {
+              id: i + '_' + i+k  + 'kraskovarka', 
+              group: itemss.results[i].device.id + '_'+ 'kraskovarka', 
+              content:itemss.results[i].divided_shedule.kraskovarka[k].operation + " "+ itemss.results[i].divided_shedule.kraskovarka[k].order_item.vendor_code.name+" "+ itemss.results[i].divided_shedule.kraskovarka[k].order_item.design.name + " "+ itemss.results[i].divided_shedule.kraskovarka[k].order_item.length,  
+              type: 'range',
+              style: "background-color: #"+itemss.results[i].divided_shedule.kraskovarka[k].order_item.design.classname+";color: red; height: 50px",  
+              start: startOper._d.toJSON(),
+              end: endOper._d.toJSON(),
+              align: 'center'
+            }
+          }
+        } else {
+          var itemData = {
+            id: i + '_' + k  + 'kraskovarka', 
+            group: itemss.results[i].device.id + '_'+ 'kraskovarka', 
+            content:itemss.results[i].divided_shedule.kraskovarka[k].operation,  
+            type: 'range',
+            start: startOper._d.toJSON(),
+            end: endOper._d.toJSON(),
+            style: "height: 50px"
+          }
+        }
+          sourceItems.push(itemData);
+        }
+      }
+    }
+  
+
+
+
+
+    }
+    
+  }
+  
+  
+  
+  items.add(sourceItems);
+  groups.add(sourceGroups);
+  
+ 
+
+  // Configuration for the Timeline
+  var options = {
+      stack: false,
+      groupOrder: 'content',  // groupOrder can be a property name or a sorting function
+      orientation: 'both',
+      maxHeight: 900,
+      verticalScroll: true,
+      locale: 'ru'
+    };
+  
+  // Create a Timeline
+  var timeline = new vis.Timeline(container, items, groups, options);
+  
+   </script>
+   </body>
+   </html>

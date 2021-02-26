@@ -1,0 +1,5498 @@
+[
+	{
+		"guid_vendor_name": "3acdaf33-4885-11df-805d-0015178f6778",
+		"vendor_name": "18445",
+		"guid_production_article_name": "1781b418-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18445",
+		"production_article_width": 1.66,
+		"production_article_density": 0.131,
+		"guid_design_name": "75c63eae-1432-11e7-90b9-001a64c8a838",
+		"design_name": "50701",
+		"length_product": 29452,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56,
+						"recipe": "РР-24906"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8fece3b4-991d-11e7-80d0-8a2397da21ec",
+		"vendor_name": "87027",
+		"guid_production_article_name": "55cab942-991e-11e7-80d0-8a2397da21ec",
+		"production_article_name": "87027",
+		"production_article_width": 1.7,
+		"production_article_density": 0.199,
+		"guid_design_name": "9dd1db3a-8980-11e7-9d24-001a64c8a838",
+		"design_name": "19-4324ТРХ",
+		"length_product": 70000,
+		"guid_design_base_name": "60838838-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50273",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 55,
+						"recipe": "РР-32154"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "ff2b2a82-a4ea-11e7-80d1-8a2397da21ec",
+		"vendor_name": "87026",
+		"guid_production_article_name": "c7ac99a9-a41d-11e7-80d1-8a2397da21ec",
+		"production_article_name": "87026",
+		"production_article_width": 1.623,
+		"production_article_density": 0.225,
+		"guid_design_name": "9dd1db3a-8980-11e7-9d24-001a64c8a838",
+		"design_name": "19-4324ТРХ",
+		"length_product": 25600,
+		"guid_design_base_name": "60838838-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50273",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-33194"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "50d49ebd-e967-11e7-80e5-1af6e1c1aa1a",
+		"vendor_name": "87314",
+		"guid_production_article_name": "00a164ba-f758-11e7-80e8-1af6e1c1aa1a",
+		"production_article_name": "87314",
+		"production_article_width": 0,
+		"production_article_density": 0,
+		"guid_design_name": "fc77660d-0fae-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4011TPG",
+		"length_product": 19227,
+		"guid_design_base_name": "6083886a-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50763",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58,
+						"recipe": "РР-33195"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "50d49ebd-e967-11e7-80e5-1af6e1c1aa1a",
+		"vendor_name": "87314",
+		"guid_production_article_name": "00a164ba-f758-11e7-80e8-1af6e1c1aa1a",
+		"production_article_name": "87314",
+		"production_article_width": 0,
+		"production_article_density": 0,
+		"guid_design_name": "1947ed9c-0faf-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4004TPG",
+		"length_product": 20000,
+		"guid_design_base_name": "60838932-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "90123",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58,
+						"recipe": "РР-38662"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "50d49ebd-e967-11e7-80e5-1af6e1c1aa1a",
+		"vendor_name": "87314",
+		"guid_production_article_name": "00a164ba-f758-11e7-80e8-1af6e1c1aa1a",
+		"production_article_name": "87314",
+		"production_article_width": 0,
+		"production_article_density": 0,
+		"guid_design_name": "ee182ac5-2066-11e8-80f2-1af6e1c1aa1a",
+		"design_name": "18-0317TPG",
+		"length_product": 74000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58,
+						"recipe": "РР-33872"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "f258da9f-2843-11e8-80f3-1af6e1c1aa1a",
+		"vendor_name": "18422а/Х-М Ins",
+		"guid_production_article_name": "babe55a3-2834-11e8-80f3-1af6e1c1aa1a",
+		"production_article_name": "18422а/Х-М Ins",
+		"production_article_width": 0,
+		"production_article_density": 0,
+		"guid_design_name": "6083881f-1320-11e5-9286-001a64c8a838",
+		"design_name": "50023",
+		"length_product": 500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "dfde5ef2-6bce-11e8-8100-1af6e1c1aa1a",
+		"vendor_name": "60406а-М Ins",
+		"guid_production_article_name": "ed6a54aa-d1c1-11e8-811a-1af6e1c1aa1a",
+		"production_article_name": "60406а-М/10t Ins",
+		"production_article_width": 1.515,
+		"production_article_density": 0.183,
+		"guid_design_name": "60838927-1320-11e5-9286-001a64c8a838",
+		"design_name": "90023",
+		"length_product": 1000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ДжрПМ",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500-2 *",
+						"speed": 2.08,
+						"recipe": "РР-39041"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛБ Кюстерс без конвейера *",
+						"speed": 60
+					},
+					{
+						"name": "сушка СШСМ Montex-8ш(газ)№3,4 XXXX ^",
+						"speed": 26.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "66f24cd3-07b4-11dd-8257-000347322f0c",
+		"vendor_name": "80406У",
+		"guid_production_article_name": "1781b497-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80406",
+		"production_article_width": 1.565,
+		"production_article_density": 0.155,
+		"guid_design_name": "6083877e-1320-11e5-9286-001a64c8a838",
+		"design_name": "20094",
+		"length_product": 57300,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Джргс",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 3.33,
+						"recipe": "РР-37534"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "стабилизация СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ДНрМ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джиггер Henriksen *",
+						"speed": 0.16
+					},
+					{
+						"name": "сушка СШСМ Montex-8ш(газ)№3,4 XXXX ^"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608387bd-1320-11e5-9286-001a64c8a838",
+		"design_name": "30163",
+		"length_product": 8000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-21465"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50,
+						"recipe": "РР-23757"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608387f0-1320-11e5-9286-001a64c8a838",
+		"design_name": "40063",
+		"length_product": 5700,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-19658"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Джрс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 5.56
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608387f2-1320-11e5-9286-001a64c8a838",
+		"design_name": "40083",
+		"length_product": 10000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ2-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-19995"
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-19995"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ2-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "6083881f-1320-11e5-9286-001a64c8a838",
+		"design_name": "50023",
+		"length_product": 37580,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-28660"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 31500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-19966"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "6083882b-1320-11e5-9286-001a64c8a838",
+		"design_name": "50143",
+		"length_product": 10200,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-20269"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "6083888f-1320-11e5-9286-001a64c8a838",
+		"design_name": "60143",
+		"length_product": 8000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50,
+						"recipe": "РР-21451"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "6083889e-1320-11e5-9286-001a64c8a838",
+		"design_name": "60293",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-21741"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608388ee-1320-11e5-9286-001a64c8a838",
+		"design_name": "80023",
+		"length_product": 27000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-24911"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608388f4-1320-11e5-9286-001a64c8a838",
+		"design_name": "80073",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-20422"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608388f9-1320-11e5-9286-001a64c8a838",
+		"design_name": "80133",
+		"length_product": 4000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-26272"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608388fc-1320-11e5-9286-001a64c8a838",
+		"design_name": "80153",
+		"length_product": 20830,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-19574"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "608388fe-1320-11e5-9286-001a64c8a838",
+		"design_name": "80173",
+		"length_product": 5400,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-23268"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "7758665a-07b5-11dd-8257-000347322f0c",
+		"vendor_name": "81421",
+		"guid_production_article_name": "c2b9984a-9814-11e5-9f6b-001a64c8a838",
+		"production_article_name": "81421t",
+		"production_article_width": 1.66,
+		"production_article_density": 0.245,
+		"guid_design_name": "60838927-1320-11e5-9286-001a64c8a838",
+		"design_name": "90023",
+		"length_product": 5350,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-35019"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8f61e08c-8b36-11e0-8644-0015178f6778",
+		"vendor_name": "1216",
+		"guid_production_article_name": "1781b286-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "1216",
+		"production_article_width": 1.65,
+		"production_article_density": 0.181,
+		"guid_design_name": "115ce183-bc66-11e6-8a25-001a64c8a838",
+		"design_name": "30471",
+		"length_product": 32500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50,
+						"recipe": "РР-32513"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "b6e589cb-2701-11dd-8813-000347322f0c",
+		"vendor_name": "81408ам",
+		"guid_production_article_name": "9c539632-a225-11e5-a18f-001a64c8a838",
+		"production_article_name": "81408а-М",
+		"production_article_width": 1.61,
+		"production_article_density": 0.236,
+		"guid_design_name": "6083881f-1320-11e5-9286-001a64c8a838",
+		"design_name": "50023",
+		"length_product": 6900,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-23638"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "b6e589cb-2701-11dd-8813-000347322f0c",
+		"vendor_name": "81408ам",
+		"guid_production_article_name": "9c539632-a225-11e5-a18f-001a64c8a838",
+		"production_article_name": "81408а-М",
+		"production_article_width": 1.61,
+		"production_article_density": 0.236,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 2000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-35457"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "27ed0258-05dd-11dd-8e77-000347322f0c",
+		"vendor_name": "10407",
+		"guid_production_article_name": "1781b267-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "10407",
+		"production_article_width": 1.635,
+		"production_article_density": 0.255,
+		"guid_design_name": "6083861c-1320-11e5-9286-001a64c8a838",
+		"design_name": "10072",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 40
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 48
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "27ed0258-05dd-11dd-8e77-000347322f0c",
+		"vendor_name": "10407",
+		"guid_production_article_name": "1781b267-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "10407",
+		"production_article_width": 1.635,
+		"production_article_density": 0.255,
+		"guid_design_name": "6083881f-1320-11e5-9286-001a64c8a838",
+		"design_name": "50023",
+		"length_product": 5200,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-20908"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 45
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 40
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 48
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "27ed0258-05dd-11dd-8e77-000347322f0c",
+		"vendor_name": "10407",
+		"guid_production_article_name": "1781b267-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "10407",
+		"production_article_width": 1.635,
+		"production_article_density": 0.255,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 26000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-30418"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 40
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 48
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "27ed0258-05dd-11dd-8e77-000347322f0c",
+		"vendor_name": "10407",
+		"guid_production_article_name": "1781b267-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "10407",
+		"production_article_width": 1.635,
+		"production_article_density": 0.255,
+		"guid_design_name": "608388f4-1320-11e5-9286-001a64c8a838",
+		"design_name": "80073",
+		"length_product": 10990,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 45,
+						"recipe": "РР-29934"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 48
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 40
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "27ed0258-05dd-11dd-8e77-000347322f0c",
+		"vendor_name": "10407",
+		"guid_production_article_name": "1781b267-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "10407",
+		"production_article_width": 1.635,
+		"production_article_density": 0.255,
+		"guid_design_name": "608388fc-1320-11e5-9286-001a64c8a838",
+		"design_name": "80153",
+		"length_product": 16000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-21593"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 48
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 40
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "93533234-8ba0-11e6-81be-001a64c8a838",
+		"design_name": "80563",
+		"length_product": 3000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д1жгПСэ",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-35404"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д500жрсс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-35404"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "608387f5-1320-11e5-9286-001a64c8a838",
+		"design_name": "40113",
+		"length_product": 1000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Джрс",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-23614"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д500жрсс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-23614"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-23614"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 1000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение НТ-Джиггер МСS *"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-29248"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ-1000"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-1000 *",
+						"speed": 4.67
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "6083884b-1320-11e5-9286-001a64c8a838",
+		"design_name": "50453",
+		"length_product": 3000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение НТ-Джиггер МСS *",
+						"speed": 2.19,
+						"recipe": "РР-16345"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 25.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д500жрсс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-26419"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 25.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-26419"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 25.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "6083888f-1320-11e5-9286-001a64c8a838",
+		"design_name": "60143",
+		"length_product": 1600,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д500жрсс",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-26346"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-26346"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "60838927-1320-11e5-9286-001a64c8a838",
+		"design_name": "90023",
+		"length_product": 6330,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Дг",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение НТ-Джиггер МСS *",
+						"recipe": "РР-14800"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д500жрсс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-23593"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д1жгПСэ"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-23593"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8edf6c69-d573-11dd-8fdb-000347322f0c",
+		"vendor_name": "80016а",
+		"guid_production_article_name": "1781b48e-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "80016а",
+		"production_article_width": 1.64,
+		"production_article_density": 0.11,
+		"guid_design_name": "3fa5e13f-8941-11e6-a541-001a64c8a838",
+		"design_name": "51103",
+		"length_product": 500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д1жгПСэ",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 2.5,
+						"recipe": "РР-29734"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "промывка ЛП Кюстерс *",
+						"speed": 55,
+						"recipe": "РР-27537"
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 25.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8921dbc9-2566-11dd-962b-000347322f0c",
+		"vendor_name": "18422ахМ",
+		"guid_production_article_name": "84428807-780c-11e7-9d24-001a64c8a838",
+		"production_article_name": "18422ахмz2",
+		"production_article_width": 1.65,
+		"production_article_density": 0.239,
+		"guid_design_name": "93533234-8ba0-11e6-81be-001a64c8a838",
+		"design_name": "80563",
+		"length_product": 51085,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-38028"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8921dbc9-2566-11dd-962b-000347322f0c",
+		"vendor_name": "18422ахМ",
+		"guid_production_article_name": "84428807-780c-11e7-9d24-001a64c8a838",
+		"production_article_name": "18422ахмz2",
+		"production_article_width": 1.65,
+		"production_article_density": 0.239,
+		"guid_design_name": "6083881f-1320-11e5-9286-001a64c8a838",
+		"design_name": "50023",
+		"length_product": 31500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-34828"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8921dbc9-2566-11dd-962b-000347322f0c",
+		"vendor_name": "18422ахМ",
+		"guid_production_article_name": "84428807-780c-11e7-9d24-001a64c8a838",
+		"production_article_name": "18422ахмz2",
+		"production_article_width": 1.65,
+		"production_article_density": 0.239,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-34251"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8921dbc9-2566-11dd-962b-000347322f0c",
+		"vendor_name": "18422ахМ",
+		"guid_production_article_name": "84428807-780c-11e7-9d24-001a64c8a838",
+		"production_article_name": "18422ахмz2",
+		"production_article_width": 1.65,
+		"production_article_density": 0.239,
+		"guid_design_name": "6083884b-1320-11e5-9286-001a64c8a838",
+		"design_name": "50453",
+		"length_product": 24000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-34262"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "8921dbdd-2566-11dd-962b-000347322f0c",
+		"vendor_name": "18422Х",
+		"guid_production_article_name": "a02271f2-780c-11e7-9d24-001a64c8a838",
+		"production_article_name": "18422Хz1",
+		"production_article_width": 1.65,
+		"production_article_density": 0.243,
+		"guid_design_name": "608388fe-1320-11e5-9286-001a64c8a838",
+		"design_name": "80173",
+		"length_product": 86366,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-35815"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "02d1482a-6baf-11e3-9a16-0015178f6778",
+		"vendor_name": "ПЭ/М-003МВД",
+		"guid_production_article_name": "1781b51a-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "ПЭ/М-003МВД",
+		"production_article_width": 1.62,
+		"production_article_density": 0.109,
+		"guid_design_name": "fbdbcb1c-454d-11e9-813c-1af6e1c1aa1a",
+		"design_name": "19-4007ТСХ",
+		"length_product": 5000,
+		"guid_design_base_name": "6083892f-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "90093",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д1жгсс",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 4.17
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "стабилизация СШСМ-ш XXXX(газ) ^",
+						"speed": 24.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "02d1482a-6baf-11e3-9a16-0015178f6778",
+		"vendor_name": "ПЭ/М-003МВД",
+		"guid_production_article_name": "1781b51a-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "ПЭ/М-003МВД",
+		"production_article_width": 1.62,
+		"production_article_density": 0.109,
+		"guid_design_name": "33c154b7-fcd6-11e6-ab9d-001a64c8a838",
+		"design_name": "Р19-4013ТСХ",
+		"length_product": 50000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "Д1жгсс",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 4.17
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "стабилизация СШСМ-ш XXXX(газ) ^",
+						"speed": 24.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Д3жСтС"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-1000 *",
+						"speed": 7.66,
+						"recipe": "РР-31867"
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "стабилизация СШСМ-ш XXXX(газ) ^",
+						"speed": 24.5
+					},
+					{
+						"name": "сшивка Оверлок ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "abcef2f0-22cf-11e4-9d55-0015178f661c",
+		"vendor_name": "87024",
+		"guid_production_article_name": "db858ee4-7fd1-11e6-96e5-001a64c8a838",
+		"production_article_name": "87024",
+		"production_article_width": 1.625,
+		"production_article_density": 0.14,
+		"guid_design_name": "60838614-1320-11e5-9286-001a64c8a838",
+		"design_name": "10021",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-1ш",
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "abcef2f0-22cf-11e4-9d55-0015178f661c",
+		"vendor_name": "87024",
+		"guid_production_article_name": "db858ee4-7fd1-11e6-96e5-001a64c8a838",
+		"production_article_name": "87024",
+		"production_article_width": 1.625,
+		"production_article_density": 0.14,
+		"guid_design_name": "60838822-1320-11e5-9286-001a64c8a838",
+		"design_name": "50051",
+		"length_product": 6000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a0951544-f6da-11df-9d8c-0015178f6778",
+		"vendor_name": "18450ам",
+		"guid_production_article_name": "1781b419-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18450а-М",
+		"production_article_width": 1.634,
+		"production_article_density": 0.22,
+		"guid_design_name": "862eb6be-7eb7-11e8-8104-1af6e1c1aa1a",
+		"design_name": "60772",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-1ш",
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50,
+						"recipe": "РР-33572"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a0951544-f6da-11df-9d8c-0015178f6778",
+		"vendor_name": "18450ам",
+		"guid_production_article_name": "1781b419-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18450а-М",
+		"production_article_width": 1.634,
+		"production_article_density": 0.22,
+		"guid_design_name": "93533234-8ba0-11e6-81be-001a64c8a838",
+		"design_name": "80563",
+		"length_product": 9000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-29524"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a0951544-f6da-11df-9d8c-0015178f6778",
+		"vendor_name": "18450ам",
+		"guid_production_article_name": "1781b419-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18450а-М",
+		"production_article_width": 1.634,
+		"production_article_density": 0.22,
+		"guid_design_name": "608387f5-1320-11e5-9286-001a64c8a838",
+		"design_name": "40113",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ2-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ2-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50,
+						"recipe": "РР-19989"
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50,
+						"recipe": "РР-19989"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a0951544-f6da-11df-9d8c-0015178f6778",
+		"vendor_name": "18450ам",
+		"guid_production_article_name": "1781b419-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18450а-М",
+		"production_article_width": 1.634,
+		"production_article_density": 0.22,
+		"guid_design_name": "60838831-1320-11e5-9286-001a64c8a838",
+		"design_name": "50203",
+		"length_product": 5200,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-34951"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a0951544-f6da-11df-9d8c-0015178f6778",
+		"vendor_name": "18450ам",
+		"guid_production_article_name": "1781b419-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18450а-М",
+		"production_article_width": 1.634,
+		"production_article_density": 0.22,
+		"guid_design_name": "60838916-1320-11e5-9286-001a64c8a838",
+		"design_name": "80403",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-29661"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "bb88d783-6245-11de-a03d-0015178f661c",
+		"vendor_name": "87021",
+		"guid_production_article_name": "1781b4f7-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "87021",
+		"production_article_width": 1.68,
+		"production_article_density": 0.161,
+		"guid_design_name": "d2cd9c41-8a00-11e6-a541-001a64c8a838",
+		"design_name": "60592",
+		"length_product": 40000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58,
+						"recipe": "РР-33448"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "1d583c2e-4d9b-11dd-a5f7-000347322f0c",
+		"vendor_name": "81423",
+		"guid_production_article_name": "1781b4d5-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "81423",
+		"production_article_width": 1.635,
+		"production_article_density": 0.205,
+		"guid_design_name": "60838759-1320-11e5-9286-001a64c8a838",
+		"design_name": "19-4024ТСХ",
+		"length_product": 3000,
+		"guid_design_base_name": "1aa2c856-892f-11e6-a541-001a64c8a838",
+		"design_base_name": "50853",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-35867"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "1d583c2e-4d9b-11dd-a5f7-000347322f0c",
+		"vendor_name": "81423",
+		"guid_production_article_name": "1781b4d5-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "81423",
+		"production_article_width": 1.635,
+		"production_article_density": 0.205,
+		"guid_design_name": "6083888e-1320-11e5-9286-001a64c8a838",
+		"design_name": "60133",
+		"length_product": 5500,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-23235"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "1d583c2e-4d9b-11dd-a5f7-000347322f0c",
+		"vendor_name": "81423",
+		"guid_production_article_name": "1781b4d5-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "81423",
+		"production_article_width": 1.635,
+		"production_article_density": 0.205,
+		"guid_design_name": "60838927-1320-11e5-9286-001a64c8a838",
+		"design_name": "90023",
+		"length_product": 7000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50,
+						"recipe": "РР-33112"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "9e703daf-2c87-11dd-a627-000347322f0c",
+		"vendor_name": "87017",
+		"guid_production_article_name": "845cf90e-7018-11e6-b52d-001a64c8a838",
+		"production_article_name": "87017t",
+		"production_article_width": 1.696,
+		"production_article_density": 0.195,
+		"guid_design_name": "6dccbc58-0fae-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-0417TPG",
+		"length_product": 150000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-1ш",
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 52,
+						"recipe": "РР-33963"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "9e703daf-2c87-11dd-a627-000347322f0c",
+		"vendor_name": "87017",
+		"guid_production_article_name": "845cf90e-7018-11e6-b52d-001a64c8a838",
+		"production_article_name": "87017t",
+		"production_article_width": 1.696,
+		"production_article_density": 0.195,
+		"guid_design_name": "fc77660d-0fae-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4011TPG",
+		"length_product": 31616,
+		"guid_design_base_name": "6083886a-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50763",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50,
+						"recipe": "РР-37173"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 52,
+						"recipe": "РР-27120"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-6ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "9e703daf-2c87-11dd-a627-000347322f0c",
+		"vendor_name": "87017",
+		"guid_production_article_name": "845cf90e-7018-11e6-b52d-001a64c8a838",
+		"production_article_name": "87017t",
+		"production_article_width": 1.696,
+		"production_article_density": 0.195,
+		"guid_design_name": "1947ed9c-0faf-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4004TPG",
+		"length_product": 43465,
+		"guid_design_base_name": "60838932-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "90123",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 52,
+						"recipe": "РР-37369"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a06f97ab-2c9d-11dd-a627-000347322f0c",
+		"vendor_name": "87001",
+		"guid_production_article_name": "a398fdb5-6443-11e6-aaa4-001a64c8a838",
+		"production_article_name": "87001t",
+		"production_article_width": 1.6,
+		"production_article_density": 0.147,
+		"guid_design_name": "f8268134-8ba0-11e6-81be-001a64c8a838",
+		"design_name": "80591",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58,
+						"recipe": "РР-29641"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a06f97ab-2c9d-11dd-a627-000347322f0c",
+		"vendor_name": "87001",
+		"guid_production_article_name": "a398fdb5-6443-11e6-aaa4-001a64c8a838",
+		"production_article_name": "87001t",
+		"production_article_width": 1.6,
+		"production_article_density": 0.147,
+		"guid_design_name": "608387b3-1320-11e5-9286-001a64c8a838",
+		"design_name": "30062",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56,
+						"recipe": "РР-20267"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "Джрс"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение Джет-500 ХХХХ *",
+						"speed": 1.27
+					},
+					{
+						"name": "расправление жгт ЖР LINK ^",
+						"speed": 30
+					},
+					{
+						"name": "сушка СШСМ-ш XXXX(газ) ^",
+						"speed": 29.5
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60,
+						"recipe": "РР-35054"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a06f97ab-2c9d-11dd-a627-000347322f0c",
+		"vendor_name": "87001",
+		"guid_production_article_name": "a398fdb5-6443-11e6-aaa4-001a64c8a838",
+		"production_article_name": "87001t",
+		"production_article_width": 1.6,
+		"production_article_density": 0.147,
+		"guid_design_name": "60838893-1320-11e5-9286-001a64c8a838",
+		"design_name": "60181",
+		"length_product": 6702.3,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58,
+						"recipe": "РР-30232"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "66fd73c9-e69d-11e5-ab08-0015178f661c",
+		"vendor_name": "81301",
+		"guid_production_article_name": "10a11ada-3dd9-11e6-ad9f-001a64c8a838",
+		"production_article_name": "81301",
+		"production_article_width": 1.65,
+		"production_article_density": 0.21,
+		"guid_design_name": "fc77660d-0fae-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4011TPG",
+		"length_product": 42000,
+		"guid_design_base_name": "6083886a-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50763",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-34352"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "66fd73c9-e69d-11e5-ab08-0015178f661c",
+		"vendor_name": "81301",
+		"guid_production_article_name": "10a11ada-3dd9-11e6-ad9f-001a64c8a838",
+		"production_article_name": "81301",
+		"production_article_width": 1.65,
+		"production_article_density": 0.21,
+		"guid_design_name": "1947ed9c-0faf-11e8-80ed-1af6e1c1aa1a",
+		"design_name": "19-4004TPG",
+		"length_product": 70000,
+		"guid_design_base_name": "60838932-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "90123",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50,
+						"recipe": "РР-33565"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "66fd73c9-e69d-11e5-ab08-0015178f661c",
+		"vendor_name": "81301",
+		"guid_production_article_name": "10a11ada-3dd9-11e6-ad9f-001a64c8a838",
+		"production_article_name": "81301",
+		"production_article_width": 1.65,
+		"production_article_density": 0.21,
+		"guid_design_name": "ee182ac5-2066-11e8-80f2-1af6e1c1aa1a",
+		"design_name": "18-0317TPG",
+		"length_product": 160000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-38412"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "c82fea89-b6a6-11e1-ab69-0015178f6778",
+		"vendor_name": "18452",
+		"guid_production_article_name": "1781b41b-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18452",
+		"production_article_width": 1.632,
+		"production_article_density": 0.222,
+		"guid_design_name": "608387f1-1320-11e5-9286-001a64c8a838",
+		"design_name": "40073",
+		"length_product": 5400,
+		"guid_design_base_name": "608387f5-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "40113",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ2-2ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-34307"
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55,
+						"recipe": "РР-34307"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ2-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "c82fea89-b6a6-11e1-ab69-0015178f6778",
+		"vendor_name": "18452",
+		"guid_production_article_name": "1781b41b-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "18452",
+		"production_article_width": 1.632,
+		"production_article_density": 0.222,
+		"guid_design_name": "60838820-1320-11e5-9286-001a64c8a838",
+		"design_name": "50033",
+		"length_product": 61320,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-28713"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52,
+						"recipe": "РР-21946"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "2c8694c5-f109-11dd-abc3-0015178f6778",
+		"vendor_name": "3223ч",
+		"guid_production_article_name": "1781b439-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "3223ч",
+		"production_article_width": 1.625,
+		"production_article_density": 0.14,
+		"guid_design_name": "b159fe8c-2607-11e9-8134-1af6e1c1aa1a",
+		"design_name": "17-4027ТРХ",
+		"length_product": 10000,
+		"guid_design_base_name": "60838825-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "50082",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56,
+						"recipe": "РР-37639"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "2c8694c5-f109-11dd-abc3-0015178f6778",
+		"vendor_name": "3223ч",
+		"guid_production_article_name": "1781b439-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "3223ч",
+		"production_article_width": 1.625,
+		"production_article_density": 0.14,
+		"guid_design_name": "1b133102-7fe1-11e6-96e5-001a64c8a838",
+		"design_name": "15-3915ТСХ",
+		"length_product": 99209,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-5ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 56
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 58
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 60
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "efafa7ef-1a33-11e5-acf8-0015178f661c",
+		"vendor_name": "16604ам",
+		"guid_production_article_name": "5ef5a8b9-9ff6-11e5-8d34-001a64c8a838",
+		"production_article_name": "16604амt",
+		"production_article_width": 1.66,
+		"production_article_density": 0.247,
+		"guid_design_name": "93533234-8ba0-11e6-81be-001a64c8a838",
+		"design_name": "80563",
+		"length_product": 13400,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52,
+						"recipe": "РР-33135"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "efafa7ef-1a33-11e5-acf8-0015178f661c",
+		"vendor_name": "16604ам",
+		"guid_production_article_name": "5ef5a8b9-9ff6-11e5-8d34-001a64c8a838",
+		"production_article_name": "16604амt",
+		"production_article_width": 1.66,
+		"production_article_density": 0.247,
+		"guid_design_name": "d70e7a2c-72c0-11e6-907f-001a64c8a838",
+		"design_name": "50903",
+		"length_product": 5000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 52
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "4d541706-d4c9-11e3-b4d9-0015178f6778",
+		"vendor_name": "ПВ65-008МВД",
+		"guid_production_article_name": "1781b514-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "ПВ65-008МВД",
+		"production_article_width": 1.625,
+		"production_article_density": 0.221,
+		"guid_design_name": "60838754-1320-11e5-9286-001a64c8a838",
+		"design_name": "19-4013ТСХ",
+		"length_product": 50000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58,
+						"recipe": "РР-26163"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "34aa885b-cf41-11e2-b6b1-0015178f6778",
+		"vendor_name": "87310",
+		"guid_production_article_name": "1781b4ff-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "87310",
+		"production_article_width": 1.635,
+		"production_article_density": 0.243,
+		"guid_design_name": "608388c8-1320-11e5-9286-001a64c8a838",
+		"design_name": "70123",
+		"length_product": 70000,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 58,
+						"recipe": "РР-24237"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "c5ac7716-1320-11e4-bb1d-0015178f661c",
+		"vendor_name": "10419а-М",
+		"guid_production_article_name": "69a8ceec-980d-11e5-9f6b-001a64c8a838",
+		"production_article_name": "10419а-М",
+		"production_article_width": 1.675,
+		"production_article_density": 0.206,
+		"guid_design_name": "6083884b-1320-11e5-9286-001a64c8a838",
+		"design_name": "50453",
+		"length_product": 21600,
+		"guid_design_base_name": "00000000-0000-0000-0000-000000000000",
+		"design_base_name": "",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 50,
+						"recipe": "РР-26799"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-1ш"
+					}
+				],
+				"process": [
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "крашение ЛТК Монфортс-1ш *",
+						"speed": 50
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "отпуск Отпуск в С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	},
+	{
+		"guid_vendor_name": "a2c83821-2317-11dd-bfd7-000347322f0c",
+		"vendor_name": "3211ч",
+		"guid_production_article_name": "1781b424-1320-11e5-9286-001a64c8a838",
+		"production_article_name": "3211",
+		"production_article_width": 1.62,
+		"production_article_density": 0.234,
+		"guid_design_name": "1781b52e-1320-11e5-9286-001a64c8a838",
+		"design_name": "011001",
+		"length_product": 10000,
+		"guid_design_base_name": "60838927-1320-11e5-9286-001a64c8a838",
+		"design_base_name": "90023",
+		"sir": false,
+		"routes": [
+			{
+				"name": "ХТ1-6ш",
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Монфорст-6ш *",
+						"speed": 55
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-5ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-5ш *",
+						"speed": 52,
+						"recipe": "РР-15564"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					},
+					{
+						"name": "ХТ1-2ш"
+					}
+				],
+				"process": [
+					{
+						"name": "отпуск Отпуск в С ="
+					},
+					{
+						"name": "крашение ЛТК Вакаяма-2ш *",
+						"speed": 52,
+						"recipe": "РР-19370"
+					},
+					{
+						"name": "инспекция БМН-180 ="
+					},
+					{
+						"name": "приемка Приемка С ="
+					}
+				]
+			}
+		],
+		"base_route": ""
+	}
+]
