@@ -56,6 +56,14 @@ export default {
 
         localStorage.prepareData = JSON.stringify(weeklyData);
         ctx.commit("updateWeeklyData", weeklyData);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, данные по неделям не получены');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getRoutes(ctx) {
@@ -109,6 +117,14 @@ export default {
         const routes = data;
         routes.unshift({ id: "", name: "Пусто" });
         ctx.commit("updateRoutes", routes);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, список маршрутов не получен');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getLastDataEquipments(ctx, period) {
@@ -168,6 +184,14 @@ export default {
         const lastDateEquipments = data;
 
         ctx.commit("lastDateEquipments", lastDateEquipments);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, данные по последнему оборудованию не получены.');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getWorkingDaysResponse(ctx, weeks) {
@@ -227,6 +251,14 @@ export default {
 
         localStorage.workingDays = JSON.stringify(workingDays);
         ctx.commit("updateWorkingDays", workingDays);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, данные по рабочим дням в неделе не получены.');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getBaseRoutes(ctx, weeks) {
@@ -266,6 +298,14 @@ export default {
 
         localStorage.baseRoutes = JSON.stringify(baseRoutes);
         ctx.commit("updateBaseRoutes", baseRoutes);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с системой планирования, данные по базовым маршрутам не получены');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getBaseDevice(ctx, items) {
@@ -397,6 +437,14 @@ export default {
         //console.log('Распарсили OperationsComplited' + OperationsComplited);
         //console.log(OperationsComplited);
         ctx.commit("updateOperationsComplited", OperationsComplited);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, данные по выполненным заказам не получены');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
     },
     async getLastCleaningAndArticle(ctx, weeks) {
@@ -435,6 +483,13 @@ export default {
         const lastCleaningAndArticle = response.data;
 
         ctx.commit("updateLastCleaningAndArticle", lastCleaningAndArticle);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с системой планирования, данные по последним чисткам и артикулам не получены');
+        }else{
+          alert('Неизвестная ошибка');
+        }
       });
     },
   },
@@ -573,6 +628,8 @@ export default {
 
         return input.replace(/\s/g, "").length < 1;
       }
+      console.log('mutation lastDateEquipment');
+      console.log(JSON.stringify(lastitems));
       localStorage.lastDateEquipments = JSON.stringify(lastitems);
       state.lastDateEquipments = lastitems;
       console.log("получили последние данные по оборудованию, и записали");

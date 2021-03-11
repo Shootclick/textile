@@ -71,10 +71,10 @@
               style="float:left; width: 100%;margin-top:10px"
               height="340px"
             >
-              <template v-slot:item.text="{ item }">
+              <template v-slot:[`item.text`]="{ item }">
                 {{ item.text }}
               </template>
-              <template v-slot:item.choose="{ item }">
+              <template v-slot:[`item.choose`]="{ item }">
                 <v-layout style="margin-left: 22px">
                   <v-checkbox v-model="item.choose" />
                 </v-layout>
@@ -141,17 +141,17 @@
               fixed-header
               style="float:left; width: 100%;margin-top:10px"
             >
-              <template v-slot:item.checkedEquip="{ item }">
+              <template v-slot:[`item.checkedEquip`]="{ item }">
                 <v-layout style="margin-left: 22px">
                   <v-checkbox v-model="item.checkedEquip" />
                 </v-layout>
               </template>
 
-              <template v-slot:item.equipment="{ item }">
+              <template v-slot:[`item.equipment`]="{ item }">
                 {{ item.equipment.name }}
               </template>
 
-              <template v-slot:item.notEarlierThan="{ item }">
+              <template v-slot:[`item.notEarlierThan`]="{ item }">
                 <v-edit-dialog :return-value="item.notEarlierThan.date">
                   {{
                     getDateFormat(item.notEarlierThan.date) +
@@ -295,7 +295,7 @@
         height="370"
         @click:row="getProcess"
       >
-        <template v-slot:item.base_route="props">
+        <template v-slot:[`item.base_route`]="props">
           <v-edit-dialog :return-value="props.item.base_route">
             {{ props.item.base_route.name }}
             <template v-slot:input>
@@ -321,36 +321,36 @@
           </v-edit-dialog>
         </template>
 
-        <template v-slot:item.design_name="{ item }">
+        <template v-slot:[`item.design_name`]="{ item }">
           <v-layout>
             {{ getDesignName(item) }}
           </v-layout>
         </template>
 
-        <template v-slot:item.picture="{ item }">
+        <template v-slot:[`item.picture`]="{ item }">
           <v-layout>
             {{ item.picture.name }}
           </v-layout>
         </template>
 
-        <template v-slot:item.pdg="{ item }">
+        <template v-slot:[`item.pdg`]="{ item }">
           <v-layout justify-center>
             <v-checkbox v-model="item.pdg" />
           </v-layout>
         </template>
 
-        <template v-slot:item.sir="{ item }">
+        <template v-slot:[`item.sir`]="{ item }">
           <v-layout justify-center>
             <v-checkbox v-model="item.sir" />
           </v-layout>
         </template>
-        <template v-slot:item.fonofka="{ item }">
+        <template v-slot:[`item.fonofka`]="{ item }">
           <v-layout justify-center>
             <v-checkbox v-model="item.fonofka" />
           </v-layout>
         </template>
 
-        <template v-slot:item.notEarlierThan="{ item }">
+        <template v-slot:[`item.notEarlierThan`]="{ item }">
           <v-edit-dialog :return-value="item.notEarlierThan.date">
             {{
               getDateFormat(item.notEarlierThan.date) +
@@ -391,7 +391,7 @@
             </template>
           </v-edit-dialog>
         </template>
-        <template v-slot:item.is_priority="{ item }">
+        <template v-slot:[`item.is_priority`]="{ item }">
           <v-layout justify-center>
             <v-checkbox v-model="item.is_priority" />
           </v-layout>
@@ -420,13 +420,13 @@
         height="300"
         style="float:left;margin-top:10px;margin-left:10px; width:40%"
       >
-        <template v-slot:item.cleaning="{ item }">
+        <template v-slot:[`item.cleaning`]="{ item }">
           <v-layout justify-center>
             <v-checkbox v-model="item.cleaning" />
           </v-layout>
         </template>
 
-        <template v-slot:item.date="{ item }">
+        <template v-slot:[`item.date`]="{ item }">
           <v-edit-dialog :return-value="item.date">
             {{ getDateFormat(item.date) }}
             <template v-slot:input>
@@ -441,7 +441,7 @@
           </v-edit-dialog>
         </template>
 
-        <template v-slot:item.last_cleaning="{ item }">
+        <template v-slot:[`item.last_cleaning`]="{ item }">
           <v-edit-dialog :return-value="item.last_cleaning">
             {{ getDateFormat(item.last_cleaning) }}
             <template v-slot:input>
@@ -456,7 +456,7 @@
           </v-edit-dialog>
         </template>
 
-        <template v-slot:item.equipment="{ item }">
+        <template v-slot:[`item.equipment`]="{ item }">
           <v-edit-dialog :return-value="item.equipment">
             {{ item.equipment.name }}
             <template v-slot:input>
@@ -473,7 +473,7 @@
           </v-edit-dialog>
         </template>
 
-        <template v-slot:item.last_vendor_code.name="{ item }">
+        <template v-slot:[`item.last_vendor_code.name`]="{ item }">
           <v-edit-dialog>
             {{ item.last_vendor_code.name }}
             <template v-slot:input>
@@ -490,7 +490,7 @@
           </v-edit-dialog>
         </template>
 
-        <template v-slot:item.design.name="{ item }">
+        <template v-slot:[`item.design.name`]="{ item }">
           <v-edit-dialog>
             {{ item.design.name }}
             <template v-slot:input>
@@ -710,15 +710,14 @@ export default {
     ReplanningData: [],
   }),
   async created() {
-    await this.$store.dispatch("getWeek");
-    //console.log("отправили запрос на недели");
-    await this.$store.dispatch("getRoutes");
-
-    await this.$store.getters.getWeeks;
+    // await this.$store.dispatch("getWeek");
+    // await this.$store.dispatch("getRoutes");
+    // await this.$store.getters.getWeeks;
   },
   async mounted() {
+    await this.getStartedData();
     //this.currentDate = moment(new Date()).format("DD.MM.YYYY");
-    this.currentDate = moment("2021-02-18").format("DD.MM.YYYY");
+    this.currentDate = moment("2021-03-03").format("DD.MM.YYYY");
     //console.log(this.currentDate);
 
     //for tests
@@ -752,9 +751,14 @@ export default {
         localStorage.disable_preparation_restriction
       );
     }
-    console.log(localStorage.LastItems ? true : false);
+    console.log("localStorage.LastItems");
+    console.log(localStorage.LastItems);
+    console.log(localStorage.LastItems != "undefined");
     if (localStorage.LastItems) {
-      let sourceItem = JSON.parse(localStorage.LastItems);
+      let sourceItem =
+        localStorage.LastItems != "undefined"
+          ? JSON.parse(localStorage.LastItems)
+          : [];
       if (sourceItem.length > 0) {
         for (let si = 0; si < sourceItem.length; si++) {
           sourceItem[si].equipment = {
@@ -848,6 +852,51 @@ export default {
       return equipment;
     },
     async writeIn(data) {
+      this.loader = true;
+      localStorage.weeks = JSON.stringify(data);
+      await this.$store.dispatch("GetWeeklyData", data);
+
+      let isCurWeek = await this.checkingForTheCurrentWeek();
+
+      localStorage.removeItem("sendToPlaninOperationsComplited");
+      localStorage.removeItem("OperationsComplited");
+
+      //console.log(JSON.stringify(data));
+
+      let prepareDataSource = await this.$store.getters.getWeeklyData;
+      await this.getLastDataEquipments();
+      let sourceItems2 = await this.$store.getters.getlastDateEquipments;
+      console.log('sourceItems2 after lastDateEquipments')
+      console.log(sourceItems2);
+
+      await this.$store.dispatch(
+        "getLastCleaningAndArticle",
+        this.selected[0].guid
+      );
+      await this.getLastCleaningAndArticle(sourceItems2);
+
+      let lastitems = await this.getLastItem();
+
+      this.items2 = lastitems;
+      this.lastItemsCommon = lastitems;
+      localStorage.lastDateEquipments = JSON.stringify(this.items2);
+      localStorage.LastItems = JSON.stringify(this.items2);
+      this.items = prepareDataSource;
+
+      await this.getBaseDevice();
+
+      let totalLength = 0;
+      for (let tl = 0; tl < this.items.length; tl++) {
+        totalLength += Number(this.items[tl].length_product);
+      }
+      this.loader = false;
+      if (isCurWeek) {
+        this.isCurrentWeek = true;
+      }
+      //  console.log("Конец метода writeIn");
+      //  console.log(this.items)
+    },
+    async checkingForTheCurrentWeek() {
       let isCurWeek = false;
       for (let i = 0; i < this.selected.length; i++) {
         if (this.selected.length === 1) {
@@ -887,17 +936,9 @@ export default {
           }
         }
       }
-      localStorage.removeItem("sendToPlaninOperationsComplited");
-      localStorage.removeItem("OperationsComplited");
-
-      this.loader = true;
-      //console.log(JSON.stringify(data));
-      localStorage.weeks = JSON.stringify(data);
-      await this.$store.dispatch("GetWeeklyData", data);
-
-      let prepareDataSource = await this.$store.getters.getWeeklyData;
-
-      this.loader = false;
+      return isCurWeek;
+    },
+    async getLastDataEquipments() {
       this.selected.sort(function(a, b) {
         if (a.name > b.name) {
           return 1;
@@ -912,14 +953,14 @@ export default {
         "getLastDataEquipments",
         this.selected[0].start
       );
-      let sourceItems2 = await this.$store.getters.getlastDateEquipments;
-
-      await this.$store.dispatch(
-        "getLastCleaningAndArticle",
-        this.selected[0].guid
-      );
+    },
+    async getLastCleaningAndArticle(sourceItems2) {
+      console.log('getLastCleaningAndArticle');
+      console.log(sourceItems2);
       let lastCleaningAndArticle = await this.$store.getters
         .getLastCleaningAndArticle;
+        console.log('lastCleaningAndArticle');
+        console.log(lastCleaningAndArticle);
       if (lastCleaningAndArticle.length > 0) {
         // console.log("Зашли lastCleaningAndArticle");
         // console.log(lastCleaningAndArticle);
@@ -941,22 +982,24 @@ export default {
         }
         this.lastItemsCommon = lastCleaningAndArticle;
         sourceItems2 = lastCleaningAndArticle;
+        console.log('saved sourceItems2 to localstorage in if');
+        console.log(sourceItems2);
         localStorage.lastDateEquipments = JSON.stringify(sourceItems2);
       } else {
+        console.log('saved sourceItems2 to localstorage in else');
+        console.log(sourceItems2);
         localStorage.lastDateEquipments = JSON.stringify(sourceItems2);
       }
-
-      console.log("sourceItems2");
-      console.log(sourceItems2);
-      let lastitems = sourceItems2;
-
-      console.log("selectEquipmentItems");
-      console.log(this.selectEquipmentItems);
+    },
+    async getLastItem() {
+      let lastitems = JSON.parse(localStorage.lastDateEquipments);
+      console.log(lastitems);
       if (this.selectEquipmentItems.length > 0) {
         for (let index = 0; index < this.selectEquipmentItems.length; index++) {
           let find = lastitems.findIndex(
             (x) => x.id === this.selectEquipmentItems[index].equipment.id
           );
+
           if (find === -1) {
             let device = {
               id: this.selectEquipmentItems[index].equipment.id,
@@ -991,25 +1034,16 @@ export default {
         lastitems.splice(find, 1);
       }
       for (let litem = 0; litem < lastitems.length; litem++) {
-        // console.log(Object.hasOwnProperty(lastitems[litem].equipment.id));
-        // console.log(lastitems[litem].equipment.id);
         if (Object.hasOwnProperty(lastitems[litem].equipment)) {
           lastitems[litem].equipment.id = "";
           lastitems[litem].equipment.name = "";
         }
       }
-      this.items2 = lastitems;
-      this.lastItemsCommon = lastitems;
-      // console.log("lastitems");
-      // console.log(lastitems);
-      localStorage.lastDateEquipments = JSON.stringify(this.items2);
-      localStorage.LastItems = JSON.stringify(this.items2);
-      this.items = prepareDataSource;
-
-      let totalLength = 0;
-      for (let tl = 0; tl < this.items.length; tl++) {
-        totalLength += Number(this.items[tl].length_product);
-      }
+      console.log('in getLastItems');
+      console.log(lastitems);
+      return lastitems;
+    },
+    async getBaseDevice() {
       let getBaseDevices = [];
       for (let ix = 0; ix < this.selected.length; ix++) {
         getBaseDevices.push(this.selected[ix].guid);
@@ -1090,14 +1124,8 @@ export default {
         }
       }
       localStorage.prepareData = JSON.stringify(this.items);
-      if (isCurWeek) {
-        this.isCurrentWeek = true;
-      }
-      //  console.log("Конец метода writeIn");
-      //  console.log(this.items)
     },
-
-    sendToPlan() {
+    async sendToPlan() {
       localStorage.prepareData = JSON.stringify(this.items);
       localStorage.use_Saturday = JSON.stringify(this.use_Saturday);
       localStorage.disable_preparation_restriction = JSON.stringify(
@@ -1389,7 +1417,7 @@ export default {
       }
       // console.log("dispatch WeeksAll");
       // console.log(JSON.stringify(weeksAll));
-      this.$store.dispatch("getWorkingDaysResponse", weeksAll);
+      await this.$store.dispatch("getWorkingDaysResponse", weeksAll);
 
       let workingDays = this.$store.getters.getWorkingDaysResponse;
 
@@ -1553,7 +1581,7 @@ export default {
       // console.log("this.lastItemsCommon");
       // console.log(this.lastItemsCommon);
       // console.log(JSON.stringify(send));
-      this.$store.dispatch("sendDataPlaner", JSON.stringify(send));
+      await this.$store.dispatch("sendDataPlaner", JSON.stringify(send));
 
       let weeksToBaseDevices = [];
       for (let wd = 0; wd < this.selected.length; wd++) {
@@ -1563,11 +1591,11 @@ export default {
         weeksToBaseDevices.push(w);
       }
       //console.log(JSON.stringify(weeksToBaseDevices));
-      this.$store.dispatch(
+      await this.$store.dispatch(
         "setBaseDeviceTo1c",
         JSON.stringify(weeksToBaseDevices)
       );
-      getLoader(this);
+      await getLoader(this);
 
       async function getLoader(self) {
         let loader = await self.$store.getters.getLoader;
@@ -1579,6 +1607,15 @@ export default {
           self.loader = false;
         }
       }
+    },
+    async getStartedData() {
+      this.loader = true;
+      await this.$store.dispatch("getWeek");
+
+      await this.$store.dispatch("getRoutes");
+
+      await this.$store.getters.getWeeks;
+      this.loader = false;
     },
 
     getProcess(event) {

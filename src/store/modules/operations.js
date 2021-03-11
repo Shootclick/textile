@@ -138,6 +138,14 @@ export default {
         );
         const weeks = data;
         ctx.commit("updateWeeks", weeks);
+      })
+      .catch(function (error) {
+        if(error.toString().indexOf('Network Error')){
+          alert('Ошибка соединения с 1с, список недель не получен');
+        }else{
+          alert('Неизвестная ошибка');
+        }
+        
       });
 
       //----------------------------------------------------------

@@ -52,12 +52,12 @@
             style="float:left; width: 100%;"
             
           >
-            <template v-slot:item.operation="{ item }">
+            <template v-slot:[`item.operation`]="{ item }">
               <p :class="getTotalFontWeight(item.operation)">
                 {{ item.operation }}
               </p>
             </template>
-            <template v-slot:item.design_name="{ item }">
+            <template v-slot:[`item.design_name`]="{ item }">
               <v-layout>
                 {{ getDesignName(item) }}
               </v-layout>
@@ -169,12 +169,14 @@ export default {
       let count = 0;
       let data = {};
       let sourceData = [];
+      // console.log(response);
       if (response.results.length > 0) {
         for (let t = 0; t < response.results.length; t++) {
           //console.log(response.results[t].weeks_result);
           if (response.results[t].days_result) {
             for (let d = 0; d < response.results[t].days_result.length; d++) {
               if (isEmptyObject(response.results[t].days_result)) {
+                // console.log(response.results[t].days_result[d].date);
                 let totaldays1 = {
                   device: response.results[t].device.name,
                   date: response.results[t].days_result[d].date,
@@ -265,6 +267,9 @@ export default {
                 : "";
 
               //console.log("Подготавливаем обьект data");
+              // console.log(moment(response.results[i].schedule[s].day_start).format(
+              //     "DD-MM-YYYY"
+              //   ),);
               data = {
                 count: count++,
                 name: deviceName,
@@ -436,12 +441,12 @@ export default {
                     : "",
                 total: "",
               };
-
+              
               if (!parseObject.hasOwnProperty(deviceName)) {
                 parseObject[deviceName] = [];
               }
               parseObject[deviceName].push(data);
-
+              
               //console.log(data);
               //this.items.push(data);
               // this.devices = [];
@@ -479,23 +484,26 @@ export default {
             }
           }
         }
-        if (localStorage.OperationsComplited) {
-          if (JSON.parse(localStorage.OperationsComplited).length > 0) {
-            let it = JSON.parse(localStorage.OperationsComplited);
-            for (let ixs = 0; ixs < it.length; ixs++) {
-              if (it[ixs].timesOfDay !== "null") {
-                if (!parseObject.hasOwnProperty(it[ixs].device.name)) {
-                  parseObject[it[ixs].device.name] = [];
-                }
-                parseObject[it[ixs].device.name].push(it[ixs]);
-              }
-            }
-          }
-        }
+
+        //TODO: Получаем выполненные артикулы и добавляем в общий массив
+        // if (localStorage.OperationsComplited) {
+        //   if (JSON.parse(localStorage.OperationsComplited).length > 0) {
+        //     let it = JSON.parse(localStorage.OperationsComplited);
+        //     for (let ixs = 0; ixs < it.length; ixs++) {
+        //       if (it[ixs].timesOfDay !== "null") {
+        //         if (!parseObject.hasOwnProperty(it[ixs].device.name)) {
+        //           parseObject[it[ixs].device.name] = [];
+        //         }
+        //         parseObject[it[ixs].device.name].push(it[ixs]);
+        //       }
+        //     }
+        //   }
+        // }
+
         // console.log(this.totaldays);
         // console.log(parseObject);
         // console.log(this);
-
+        
         for (var i in parseObject) {
           if (parseObject.hasOwnProperty(i)) {
             let items = parseObject[i];
@@ -519,10 +527,11 @@ export default {
               }
             }
             parseObject[i] = this.lodash.orderBy(items, [
-              // "date",
-              // "timesOfDayNumber",
+               "date",
+               "timesOfDayNumber",
               "start",
             ]);
+           
 
             if (parseObject[i][0].name !== "Красковарка") {
               // parseObject[i] = [
@@ -591,6 +600,7 @@ export default {
         for (let dsx = 0; dsx < sortDevices.length; dsx++) {
           this.devices.push(sortDevices[dsx].name);
         }
+        // console.log(parseObject);
         function addTotalRows(rowsAll, ctx) {
           // rowsAll = [ rowsAll[0], rowsAll[rowsAll.length - 1]];
           // console.log(rowsAll)
@@ -599,6 +609,7 @@ export default {
           for (let i = 0; i < rowsAll.length; i++) {
             rows.push(rowsAll[i]);
           }
+         
 
           //console.log(ctx);
           // console.log("rows");
